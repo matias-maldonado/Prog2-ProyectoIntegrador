@@ -1,6 +1,6 @@
-const indexController ={
+const productController ={
     index: function (req, res) {
         return res.send();
     }
 }
-module.exports = indexController;
+module.exports = productController;
