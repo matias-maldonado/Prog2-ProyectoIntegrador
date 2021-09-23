@@ -1,7 +1,7 @@
 let user = {
     lista: [{
         id: 1,
-        email: '',
+        email: 'juan8@gmail.com',
         password: '',
         img: '',
         date: '',
@@ -9,7 +9,7 @@ let user = {
     },
     {
         id: 2,
-        email: '',
+        email: 'benito-1@hotmail.com.ar',
         password: '',
         img: '',
         date: '',
@@ -17,7 +17,7 @@ let user = {
     },
     {
         id: 3,
-        email: '',
+        email: 'lolagomez@gmail.com',
         password: '',
         img: '',
         date: '',
@@ -25,7 +25,7 @@ let user = {
     },
     {
         id: 4,
-        email: '',
+        email: 'mmartinez@yahoo.com',
         password: '',
         img: '',
         date: '',
@@ -33,7 +33,7 @@ let user = {
     },
     {
         id: 5,
-        email: '',
+        email: 'alejandro.g@gmail.com.ar',
         password: '',
         img: '',
         date: '',

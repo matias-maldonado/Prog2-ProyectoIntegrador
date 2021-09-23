@@ -3,91 +3,91 @@ let comments= {
         id: 1,
         idPost: 1,
         idUser: 1,
-        text: "",
+        text: "Que lindo!",
         date: ""
     },
     {
         id: 2,
         idPost: 2,
         idUser: 2,
-        text: "",
+        text: "Lo quierooo!",
         date: ""
     },
     {
         id: 3,
         idPost: 3,
         idUser: 3,
-        text: "",
+        text: "Que modelo es?",
         date: ""
     },
     {
         id: 4,
         idPost: 4,
         idUser: 4,
-        text: "",
+        text: "Muy bueno",
         date: ""
     },
     {
         id: 5,
         idPost: 5,
         idUser: 5,
-        text: "",
+        text: "Terriblee",
         date: ""
     },
     {
         id: 6,
         idPost: 6,
         idUser: 1,
-        text: "",
+        text: "Muy buen colorr",
         date: ""
     },
     {
         id: 7,
         idPost: 7,
         idUser: 2,
-        text: "",
+        text: "Impecable",
         date: ""
     },
     {
         id: 8,
         idPost: 8,
         idUser: 3,
-        text: "",
+        text: "Me enamoré",
         date: ""
     },
     {
         id: 9,
         idPost: 9,
         idUser: 4,
-        text: "",
+        text: "Lo quiero",
         date: ""
     },
     {
         id: 10,
         idPost: 10,
         idUser: 5,
-        text: "",
+        text: "AMOOO",
         date: ""
     },
     {
         id: 11,
         idPost: 1,
         idUser: 1,
-        text: "",
+        text: "Me encanta",
         date: ""
     },
     {
         id: 12,
         idPost: 2,
         idUser: 2,
-        text: "",
+        text: "Hermoso",
         date: ""
     },
     {
         id: 13,
         idPost: 3,
         idUser: 3,
-        text: "",
+        text: "Autazo",
         date: ""
     },
     {
