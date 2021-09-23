@@ -94,189 +94,189 @@ let comments= {
         id: 14,
         idPost: 4,
         idUser: 4,
-        text: "",
+        text: "es un v8?",
         date: ""
     },
     {
         id: 15,
         idPost: 5,
         idUser: 5,
-        text: "",
+        text: "que buenos detalles",
         date: ""
     },
     {
         id: 16,
         idPost: 6,
         idUser: 1,
-        text: "",
+        text: " los faros son led? ",
         date: ""
     },
     {
         id: 17,
         idPost: 7,
         idUser: 2,
-        text: "",
+        text: "altas llantas",
         date: ""
     },
     {
         id: 18,
         idPost: 8,
         idUser: 3,
-        text: "",
+        text: "hasta el sopi",
         date: ""
     },
     {
         id: 19,
         idPost: 9,
         idUser: 4,
-        text: "",
+        text: "buen carro",
         date: ""
     },
     {
         id: 20,
         idPost: 10,
         idUser: 5,
-        text: "",
+        text: " las cuviertas",
         date: ""
     },
     {
         id: 21,
         idPost: 1,
         idUser: 1,
-        text: "",
+        text: "que poder de torque tiene?",
         date: ""
     },
     {
         id: 22,
         idPost: 2,
         idUser: 2,
-        text: "",
+        text: "que velocidad alcanza?",
         date: ""
     },
     {
         id: 23,
         idPost: 3,
         idUser: 3,
-        text: "",
+        text: "parece un hot weels",
         date: ""
     },
     {
         id: 24,
         idPost: 4,
         idUser: 4,
-        text: "",
+        text: "es okm?",
         date: ""
     },
     {
         id: 25,
         idPost: 5,
         idUser: 5,
-        text: "",
+        text: "donde puedo comprar un usado?",
         date: ""
     },
     {
         id: 26,
         idPost: 6,
         idUser: 1,
-        text: "",
+        text: "de donde es?",
         date: ""
     },
     {
         id: 27,
         idPost: 7,
         idUser: 2,
-        text: "",
+        text: "es modelo 2020?",
         date: ""
     },
     {
         id: 28,
         idPost: 8,
         idUser: 3,
-        text: "",
+        text: "donde lo conseguiste?",
         date: ""
     },
     {
         id: 29,
         idPost: 9,
         idUser: 4,
-        text: "",
+        text: "que lindo manejar uno de esos",
         date: ""
     },
     {
         id: 30,
         idPost: 10,
         idUser: 5,
-        text: "",
+        text: "fachero",
         date: ""
     },
     {
         id: 31,
         idPost: 1,
         idUser: 1,
-        text: "",
+        text: "vamos tilin",
         date: ""
     },
     {
         id: 32,
         idPost: 2,
         idUser: 2,
-        text: "",
+        text: "que carrazo",
         date: ""
     },
     {
         id: 33,
         idPost: 3,
         idUser: 3,
-        text: "",
+        text: " lo tengo en la mira",
         date: ""
     },
     {
         id: 34,
         idPost: 4,
         idUser: 4,
-        text: "",
+        text: "que  cosa linda eh",
         date: ""
     },
     {
         id: 35,
         idPost: 5,
         idUser: 5,
-        text: "",
+        text: "como te ves con uno de esos @paula",
         date: ""
     },
     {
         id: 36,
         idPost: 6,
         idUser: 1,
-        text: "",
+        text: "hay sorteo?",
         date: ""
     },
     {
         id: 37,
         idPost: 7,
         idUser: 2,
-        text: "",
+        text: "permuto ferrari",
         date: ""
     },
     {
         id: 38,
         idPost: 8,
         idUser: 3,
-        text: "",
+        text: "compro compro",
         date: ""
     },
     {
         id: 39,
         idPost: 9,
         idUser: 4,
-        text: "",
+        text: "se negocia el precio?",
         date: ""
     },
     {
         id: 40,
         idPost: 10,
         idUser: 5,
-        text: "",
+        text: "@abru este combina con vo",
         date: ""
     }]
 }
