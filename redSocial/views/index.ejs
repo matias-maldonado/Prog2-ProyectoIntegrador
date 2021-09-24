@@ -16,7 +16,7 @@
                                 <div>
                                     <img src="<%= users[element.userId].img %> " alt="">
                                 </div>
-                                <h4><a href="/users/profile"><%= users[element.userId].email %>  </a></h4>
+                                <h4><a href="/users/profile"><%= users[element.userId].userName %>  </a></h4>
                                 
                             </div>
                             <div class="post-body uk-flex uk-flex-center">
@@ -32,19 +32,19 @@
                                     </li>
                                 </ul>
                                 <div class="post-pie uk-flex">
-                                    <h5 class="uk-width-1-6"><a href="/users/profile"><%= users[element.userId].email %>  </a></h5>
-                                    <p class="uk-width-5-6"><%= element.description %> </p>
+                                    <h5 class="uk-width-1-6"><a href="/users/profile"><%= users[element.userId].userName %>  </a></h5>
+                                    <p class="uk-width-5-6"><%= element.description %> </p> 
                                 </div>
                             </div>
                             <div class="post-comentarios">
                                 <h6>Comentarios</h6>
                                 <ul>
                                     <li>
-                                        <a href="/users/profile">Usuario</a>
-                                        <p>Comentario</p>
+                                        <a href="/users/profile"><%= users[element.userId].userName %> </a>
+                                        <p><%= Comentario[element.commentsId].text %> </p> <!-- esto no corre -->
                                     </li>
                                     <li>
-                                        <a href="/users/profile">Usuario</a>
+                                        <a href="/users/profile"><%= users[element.comments.Id].userName %> </a> 
                                         <p>Comentario</p>
                                     </li>
                                     <a href="">Ver más...</a>

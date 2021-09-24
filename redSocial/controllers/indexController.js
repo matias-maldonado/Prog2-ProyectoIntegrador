@@ -7,7 +7,7 @@ const indexController ={
         return res.render("index",{
             posts: post.lista,
             users: user.lista,
-            comments: comments.lista,
+            comentario: comments.lista,
         });
     },
     search: function (req, res) {

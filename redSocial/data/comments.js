@@ -1,5 +1,5 @@
 let comments= {
-    list: [{
+    lista: [{
         id: 1,
         idPost: 1,
         idUser: 1,

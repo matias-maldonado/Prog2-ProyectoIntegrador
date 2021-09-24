@@ -1,6 +1,7 @@
 let user = {
     lista: [{
         id: 0,
+        userName: 'juansini',
         email: 'juan8@gmail.com',
         password: 'milanesa345',
         img: '/img/perfil1.jpg',
@@ -9,6 +10,7 @@ let user = {
     },
     {
         id: 1,
+        userName: 'Beneitor30',
         email: 'benito-1@hotmail.com.ar',
         password: 'beni123',
         img: '/img/perfil2.jpg',
@@ -17,6 +19,7 @@ let user = {
     },
     {
         id: 2,
+        userName: 'LolitaBonita',
         email: 'lolagomez@gmail.com',
         password: 'lolitasabe',
         img: '/img/perfil4.jpg',
@@ -25,6 +28,7 @@ let user = {
     },
     {
         id: 3,
+        userName: 'MariaElena88',
         email: 'mmartinez@yahoo.com',
         password: 'panqueque',
         img: '/img/perfil5.jpg',
@@ -33,6 +37,7 @@ let user = {
     },
     {
         id: 4,
+        userName: 'AleFernandez',
         email: 'alejandro.g@gmail.com.ar',
         password: 'orange',
         img: '/img/perfil3.jpg',
