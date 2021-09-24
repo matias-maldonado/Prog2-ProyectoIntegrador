@@ -30,7 +30,7 @@ let comments= {
     {
         id: 5,
         idPost: 5,
-        idUser: 5,
+        idUser: 0,
         text: "Terriblee",
         date: ""
     },
@@ -65,7 +65,7 @@ let comments= {
     {
         id: 10,
         idPost: 10,
-        idUser: 5,
+        idUser: 0,
         text: "AMOOO",
         date: ""
     },
@@ -100,7 +100,7 @@ let comments= {
     {
         id: 15,
         idPost: 5,
-        idUser: 5,
+        idUser: 0,
         text: "que buenos detalles",
         date: ""
     },
@@ -135,7 +135,7 @@ let comments= {
     {
         id: 20,
         idPost: 10,
-        idUser: 5,
+        idUser: 0,
         text: " las cuviertas",
         date: ""
     },
@@ -170,7 +170,7 @@ let comments= {
     {
         id: 25,
         idPost: 5,
-        idUser: 5,
+        idUser: 0,
         text: "donde puedo comprar un usado?",
         date: ""
     },
@@ -205,7 +205,7 @@ let comments= {
     {
         id: 30,
         idPost: 10,
-        idUser: 5,
+        idUser: 0,
         text: "fachero",
         date: ""
     },
@@ -240,7 +240,7 @@ let comments= {
     {
         id: 35,
         idPost: 5,
-        idUser: 5,
+        idUser: 0,
         text: "como te ves con uno de esos @paula",
         date: ""
     },
@@ -275,8 +275,9 @@ let comments= {
     {
         id: 40,
         idPost: 10,
-        idUser: 5,
+        idUser: 0,
         text: "@abru este combina con vo",
         date: ""
     }]
 }
+module.exports= comments
