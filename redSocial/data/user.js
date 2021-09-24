@@ -5,7 +5,7 @@ let user = {
         email: 'juan8@gmail.com',
         password: 'milanesa345',
         img: '/img/perfil1.jpg',
-        date: '23/10/2020',
+        date: '23/10/2001',
         edad: 20
     },
     {
@@ -14,7 +14,7 @@ let user = {
         email: 'benito-1@hotmail.com.ar',
         password: 'beni123',
         img: '/img/perfil2.jpg',
-        date: '13/4/2021',
+        date: '13/4/1991',
         edad: 30
     },
     {
@@ -23,7 +23,7 @@ let user = {
         email: 'lolagomez@gmail.com',
         password: 'lolitasabe',
         img: '/img/perfil4.jpg',
-        date: '21/2/2020',
+        date: '21/2/1993',
         edad: 27
     },
     {
@@ -32,7 +32,7 @@ let user = {
         email: 'mmartinez@yahoo.com',
         password: 'panqueque',
         img: '/img/perfil5.jpg',
-        date: '2/8/2019',
+        date: '2/8/2098',
         edad: 22
     },
     {
@@ -41,7 +41,7 @@ let user = {
         email: 'alejandro.g@gmail.com.ar',
         password: 'orange',
         img: '/img/perfil3.jpg',
-        date: '4/6/2020',
+        date: '4/6/2003',
         edad: 18
     }]
 }

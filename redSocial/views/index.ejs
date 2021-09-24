@@ -14,7 +14,7 @@
                         <article class="post uk-card-default uk-flex uk-flex-column">
                             <div class="info-usuario uk-flex ">
                                 <div>
-                                    <img src="<%= users[element.userId].img %> " alt="">
+                                    <img src="<%= users[element.userId].img %> " class="imagenesPerfil" alt="">
                                 </div>
                                 <h4><a href="/users/profile"><%= users[element.userId].userName %>  </a></h4>
                                 
@@ -41,11 +41,11 @@
                                 <ul>
                                     <li>
                                         <a href="/users/profile"><%= users[element.userId].userName %> </a>
-                                        <p><%= Comentario[element.commentsId].text %> </p> <!-- esto no corre -->
+                                        <p> <%= comentario[element.userId].text %> </p> <!-- esto no corre -->
                                     </li>
                                     <li>
-                                        <a href="/users/profile"><%= users[element.comments.Id].userName %> </a> 
-                                        <p>Comentario</p>
+                                        <a href="/users/profile"><%= users[element.userId].userName %> </a> 
+                                        <p> <%= comentario[element.userId].text %> </p>
                                     </li>
                                     <a href="">Ver más...</a>
                                 </ul>
