@@ -1,7 +1,7 @@
 let post = {
     lista: [{
         id: 1,
-        img: '/img/mclarenP1.jpg ',
+        img: '/img/mclarenP1.jpg',
         description: 'Evento Ginebra 2020',
         date: '29/05/2020',
         userId: 1

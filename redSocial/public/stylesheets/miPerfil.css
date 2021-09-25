@@ -16,3 +16,14 @@
     color: gray;
     text-decoration: none;
 }
+.fotoPosteo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+}
+.foto-perfil{
+    border-radius: 30px;
+    margin-bottom: 20px;
+}

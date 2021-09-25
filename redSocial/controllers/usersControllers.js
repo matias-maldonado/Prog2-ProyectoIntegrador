@@ -1,4 +1,5 @@
 let user= require("../data/user")
+let post= require("../data/post")
 const loginController ={
     login: function (req, res) {
         return res.render('login');
@@ -8,8 +9,8 @@ const loginController ={
     },
     profile: function (req, res) {
         return res.render('miPerfil',{
-            user: user.lista[0]
-
+            user: user.lista[0],
+            posteo: post.lista,
         });
     },
     edit: function (req, res) {
