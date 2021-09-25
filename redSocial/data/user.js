@@ -4,7 +4,7 @@ let user = {
         userName: 'juansini',
         email: 'juan8@gmail.com',
         password: 'milanesa345',
-        img: '/img/perfil1.jpg',
+        img: '/img/perfil3.jpg',
         date: '23/10/2001',
         edad: 20
     },
@@ -40,7 +40,7 @@ let user = {
         userName: 'AleFernandez',
         email: 'alejandro.g@gmail.com.ar',
         password: 'orange',
-        img: '/img/perfil3.jpg',
+        img:'/img/perfil1.jpg',
         date: '4/6/2003',
         edad: 18
     }]
