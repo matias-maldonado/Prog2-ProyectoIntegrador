@@ -4,3 +4,166 @@
 main{
     margin-bottom: 40px;
 }
+a {
+    color: black !important; 
+    transition: all 0.3s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+a:hover {
+    text-decoration: none !important;
+    opacity: 0.40;
+}
+.headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    }
+
+
+.header {
+  
+    padding: 32px 64px; 
+    background-color: white ;
+    display: flex;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05) ;
+}
+
+.headerBoton {
+
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+
+
+}
+.headerBoton ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.headerBoton ul li a {
+    color: black !important;
+
+    margin-right: 24px;
+}
+.headerBoton ul li:last-of-type {
+    margin-right: 0em;
+    
+    
+}
+
+
+.headerLogo h2 a {
+
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.headerLogo h2 a:hover{
+
+    text-decoration: none ;
+ 
+
+}
+
+.headerPost {
+
+    display: flex;
+    align-items: center;
+}
+
+.headerLogOut {
+
+    margin-left: 32px ;
+}
+
+.headerLogo {
+
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+
+}
+
+
+.footerMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .footerSocial {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .footerSocial li {
+    margin-right: 18px;
+  }
+  
+  .footerSocial li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .footerNames {
+  
+    display: flex;
+
+  }
+.footerNames li {
+
+    margin-right: 18px;
+    color: black;
+    
+}
+  
+  .footerNames li:last-of-type {
+    margin-right: 0;
+  }
+
+  .buscadorHeader {
+
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+
+  .userFotoInicio {
+
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0px 0px 12px ;
+    
+
+  }
+
+  .userFotoInicio img {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 33px;
+  }
+
+  .userFotoInicio a {
+
+    font-size: 22px;
+  }

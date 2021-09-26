@@ -1,5 +1,5 @@
 footer{
-    height: 40px;
+    height: 60px;
     color: white;
     padding: 0 10px;
 }
@@ -10,4 +10,6 @@ footer ul{
 
 footer ul li{
     margin-top: 0;
+    margin-right: 18px;
+   white-space: nowrap;
 }
