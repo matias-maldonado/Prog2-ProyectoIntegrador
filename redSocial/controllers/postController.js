@@ -7,11 +7,9 @@ const postController ={
     },
     detalle: function (req, res) {
         return res.render('detallePost',{
-            posts: post.lista[1], 
-            usuario: user.lista,
+            posts: post.lista, 
+            users: user.lista,
             comentario: comments.lista,
-
-
         });
 
     }
