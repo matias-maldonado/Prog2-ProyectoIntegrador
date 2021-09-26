@@ -167,3 +167,53 @@ a:hover {
 
     font-size: 22px;
   }
+
+  .subirPost {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh - 80px);
+    padding-top: 120px;
+  }
+  
+  .subirPost h2 {
+    font-size: 42px;
+    display: flex;
+  
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 64px;
+  }
+  
+  .subirPost form {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+  }
+  
+  .subirPost form input {
+    display: flex;
+    margin-bottom: 32px;
+  }
+  
+ 
+  
+  
+  .subirPost form button {
+    padding: 12px 32px;
+    color: white;
+    line-height: 1;
+    background: royalblue;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+  }
+  
+  .subirPost form button:hover {
+    opacity: 0.7;
+  }
