@@ -8,17 +8,10 @@ header{
     padding: 12px 32px; 
     background-color: white ;
     display: flex;
-
-
-
-    box-shadow: 2px 2px 10px (rgba(0, 0, 0, 0.2);
-
-
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .headerNav {
-    color: red;
-    background-color: teal;
     width: 100%;
     display: flex;
     align-items: center;
