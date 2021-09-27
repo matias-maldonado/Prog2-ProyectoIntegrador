@@ -29,3 +29,4 @@ foreign key (userId) references users(id)
 );
 insert into users values
 (default, 'juan8@gmail.com','juansini', '/img/perfil1.jpg','2020-10-12','milanesa345',20)
+(default, 'benito-1@hotmail.com.ar','Beneitor30', '/img/perfil2.jpg','1992-4-13','beni123',30)

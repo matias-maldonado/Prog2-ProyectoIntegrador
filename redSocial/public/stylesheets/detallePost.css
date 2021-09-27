@@ -20,6 +20,8 @@ article.detalle-post .imagen-post{
 }
 .comentarios-detalle .info-post img{
     border-radius: 50%;
+    margin: 15px;
+    height: 55px;
 }
 .comentarios-detalle .info-post h3{
     font-size: 14px;

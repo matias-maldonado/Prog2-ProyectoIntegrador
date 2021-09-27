@@ -197,10 +197,6 @@ a:hover {
     display: flex;
     margin-bottom: 32px;
   }
-  
- 
-  
-  
   .subirPost form button {
     padding: 12px 32px;
     color: white;
@@ -216,4 +212,25 @@ a:hover {
   
   .subirPost form button:hover {
     opacity: 0.7;
+  }
+  .imagen-post{
+    width: auto;
+  }
+  .comentarioPosteo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .fotoComentario{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    object-fit: cover;
+    margin-right: 33px
+  }
+  .listaComentarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .listaComentarios a{
+    margin-right: 5px;
   }
