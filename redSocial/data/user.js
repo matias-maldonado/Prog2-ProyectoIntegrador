@@ -32,8 +32,8 @@ let user = {
         email: 'mmartinez@yahoo.com',
         password: 'panqueque',
         img: '/img/perfil5.jpg',
-        date: '2/8/2098',
-        edad: 22
+        date: '2/8/1998',
+        edad: 23
     },
     {
         id: 4,
