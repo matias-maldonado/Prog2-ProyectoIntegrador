@@ -36,15 +36,14 @@ insert into users values
 
 
 insert into posts values
-
-(default,  '/img/mclarenP1.jpg'  'Evento Ginebra 2020' '29/05/2020')
-(default, '/img/abtRs7.jpg' ,'Una joya perdida' , '17/03/2021' )
-(default, '/img/ferrariLaferrari.jpg', 'Este color es dificil de conseguir, edicion limitada 2020', '5/08/2020')
-(default,  '/img/AMG.jpg', 'Este Mercho es una locura', '7/11/2021',)
-(default,   '/img/ferrariPista.jpg', 'Ferrari gris',  '26/02/2019', )
-(default,    '/img/KoenigseggAgera.jpg', 'foto sacada post duchita', '05/04/2021',)
-(default,  '/img/JORGE-GOMEZ-PAGANI.jpg', 'se me va la beba :¬(',  '21/04/2020',)
-(default, '/img/Porsche.jpg','Yendo a salta en esta nave', '07/07/2020',)
-(default,  '/img/Urus.jpg', 'los detalles combinan con el exterior verdoso del auto', '01/12/2020')
-(default,  '/img/Huayra.jpg', 'Recien llegado de italia', '14/06.2020')
+(default,  '/img/mclarenP1.jpg'  'Evento Ginebra 2020' '2020-5-12')
+(default, '/img/abtRs7.jpg' ,'Una joya perdida' , '2021-4-6' )
+(default, '/img/ferrariLaferrari.jpg', 'Este color es dificil de conseguir, edicion limitada 2020', '2020-6-7')
+(default,  '/img/AMG.jpg', 'Este Mercho es una locura', '2021/11/7',)
+(default,   '/img/ferrariPista.jpg', 'Ferrari gris',  '2019/02/7', )
+(default,    '/img/KoenigseggAgera.jpg', 'foto sacada post duchita', '2021/04/2',)
+(default,  '/img/JORGE-GOMEZ-PAGANI.jpg', 'se me va la beba :¬(',  '2020-4-8',)
+(default, '/img/Porsche.jpg','Yendo a salta en esta nave', '2020-4-9,)
+(default,  '/img/Urus.jpg', 'los detalles combinan con el exterior verdoso del auto', '2020-12-8')
+(default,  '/img/Huayra.jpg', 'Recien llegado de italia', '2020-10-17')
 
