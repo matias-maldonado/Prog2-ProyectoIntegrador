@@ -4,5 +4,5 @@ const postController = require('../controllers/postController')
 
 /* GET home page. */
 router.get('/add', postController.add)
-router.get('/detalle', postController.detalle)
+router.get('/detalle/:id', postController.detalle)
 module.exports = router;

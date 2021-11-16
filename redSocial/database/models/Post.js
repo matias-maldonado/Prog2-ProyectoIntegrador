@@ -15,7 +15,7 @@ module.exports= (sequelize, DataTypes)=>{
         fecha:{
             type:DataTypes.DATE,
         },
-        description:{
+        descripcion:{
             type:DataTypes.STRING,
         },
         userId:{
@@ -30,11 +30,11 @@ module.exports= (sequelize, DataTypes)=>{
     Post.associate= (model)=>{
         Post.belongsTo(model.User,{
             as:"user",
-            foreingKey:"userId"
+            foreignKey:"userId"
         })
     Post.hasMany(model.Comment,{
         as: "comments",
-        foreingKey:"postId"
+        foreignKey:"postId"
     })
 
     }
