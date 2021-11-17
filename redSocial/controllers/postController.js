@@ -6,6 +6,17 @@ const postController ={
     add: function (req, res) {
         return res.render('agregarPost');
     },
+    store: function (req, res) {
+        db.Post.create({
+            img: req.file.filename,
+            fecha: Date.now(),
+            descripcion: req.body.descripcion,
+            userId: req.body.userId,
+        })
+        .then(user=>{
+            return res.redirect ('/')
+        })
+    },
     detalle: function (req, res) {
         db.Post.findByPk (req.params.id,{
             include: [

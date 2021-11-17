@@ -19,7 +19,7 @@
                               
                                     <img src="<%= element.user.img %> " class="" alt="">
                                 
-                               <a href="/users/profile"><%= element.user.userName %>  </a>
+                               <a href="/users/profile/<%= element.user.id %> "><%= element.user.userName %>  </a>
                                 
                             </div>
                             <div class="post-body uk-flex uk-flex-center">
@@ -35,7 +35,7 @@
                                     </li>
                                 </ul>
                                 <div class="post-pie uk-flex">
-                                    <h5 class="uk-width-1-6"><a href="/users/profile"><%= element.user.userName %>  </a></h5>
+                                    <h5 class="uk-width-1-6"><a href="/users/profile/<%= element.user.id %>"><%= element.user.userName %>  </a></h5>
                                     <p class="uk-width-5-6"><%= element.descripcion %> </p> 
                                 </div>
                             </div>
@@ -44,7 +44,7 @@
                                 <ul>
                                     <% element.comments.forEach(comment => { %>
                                     <li>
-                                        <a href="/users/profile"><%= comment.user.userName %> </a>
+                                        <a href="/users/profile/<%= comment.user.id %>"><%= comment.user.userName %> </a>
                                         <p> <%= comment.comentario %> </p> <!-- esto no corre -->
                                     </li>
                                     <% })%>
