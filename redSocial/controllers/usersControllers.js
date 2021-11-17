@@ -1,20 +1,37 @@
 let user= require("../data/user")
 let post= require("../data/post")
 const db = require("../database/models");
+let bcrypt = require('bcryptjs')
 const loginController ={
     login: function (req, res) {
         return res.render('login');
+    },
+    loginPost: function (req, res) {
+        db.User.findOne({
+            where : {
+                email: req.body.email
+            }
+        })
+        .then(user => {
+        let passwordCorrecta = bcrypt.compareSync(req.body.password,user.password)
+        if (passwordCorrecta == true){
+            req.session.user= user
+            res.cookie("usuarioId", user.id, {maxAge: 1000 * 60 * 30})
+            res.redirect('/')
+        }
+        })
     },
     register: function (req, res) {
         return res.render('registracion');
     },
     store: function (req, res) {
+        let passwordEncriptada = bcrypt.hashSync(req.body.password,10)
         db.User.create({
             email: req.body.email,
             userName: req.body.userName,
             img: req.file.filename,
             fecha:req.body.fecha,
-            password:req.body.password,
+            password: passwordEncriptada,
             age: req.body.age,
         })
         .then(user=>{
