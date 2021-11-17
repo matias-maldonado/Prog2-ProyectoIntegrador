@@ -7,17 +7,21 @@ const postController ={
         return res.render('agregarPost');
     },
     detalle: function (req, res) {
-        db.Post.findByPk (req.params.id)
+        db.Post.findByPk (req.params.id,{
+            include: [
+                {association: 'user'},
+                {association: 'comments',
+            include: {
+                association: 'user'
+            }}
+            ]
+        })
         .then(data=> {
-            return res.send(data)
-            
-             
-        return res.render('detallePost',{
-            posts: post.lista, 
-            users: user.lista,
-            comentario: comments.lista,
-        });
-    })
+           //return res.send(data)
+           return res.render("detallePost",{
+            post: data,
+           })
+        });  
     }
 }
 module.exports = postController;
