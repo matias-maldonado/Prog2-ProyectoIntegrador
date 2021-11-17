@@ -9,13 +9,13 @@
         <div class="uk-section uk-section-small">
             <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
                 <h2>¡Registrate!</h2>
-                <form action="/">
+                <form action="/users/register" method="post" enctype="multipart/form-data">
                     <p><input type="email" placeholder="Email" class="input-form" name="email"></p>
-                    <p><input type="text" placeholder="Nombre" class="input-form" name="nombre"></p>
-                    <p><input type="text" placeholder="Apellido" class="input-form" name="apellido"></p>
+                    <p><input type="text" placeholder="Nombre" class="input-form" name="userName"></p>
                     <p><input type="file" placeholder="Foto" class="input-form" name="img"></p>
-                    <p><input type="date" placeholder="Fecha de nacimiento" class="input-form" name="date"></p>
+                    <p><input type="date" placeholder="Fecha de nacimiento" class="input-form" name="fecha"></p>
                     <p><input type="password" placeholder="Contraseña" class="input-form" name="password"></p>
+                    <p><input type="number" placeholder="edad" class="input-form" name="age"></p>
                     <p><button type="submit" class="button-form">Registrar</button></p>
                 </form>
             </div>
