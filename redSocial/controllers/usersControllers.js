@@ -42,8 +42,11 @@ const loginController ={
         db.User.findByPk (req.params.id,{
             include: [
                 {association: 'posts'},
-                {association: 'comments'}]
+                {association: 'comments'}],
+            order: [['posts','id','desc']]
+
             })
+    
         .then(data=> {
            //return res.send(data)
            return res.render("miPerfil",{
