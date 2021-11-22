@@ -18,10 +18,11 @@ const indexController ={
            //return res.send(data)
            return res.render("index",{
             posts: data,
-            
+        })
+        .catch(error=> {
+            console.log(error);
         });
         })
-       
     },
     search: function (req, res) {
         return res.render("resultadoBusqueda");

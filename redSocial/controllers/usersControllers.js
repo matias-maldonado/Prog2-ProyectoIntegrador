@@ -8,7 +8,7 @@ const loginController ={
     },
     loginPost: function (req, res) {
         db.User.findOne({
-            where : {
+            where: {
                 email: req.body.email
             }
         })

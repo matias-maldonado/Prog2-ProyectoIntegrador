@@ -16,6 +16,9 @@ const postController ={
         .then(user=>{
             return res.redirect ('/')
         })
+        .catch(error=> {
+            console.log(error);
+        });
     },
     detalle: function (req, res) {
         db.Post.findByPk (req.params.id,{
@@ -32,6 +35,9 @@ const postController ={
            return res.render("detallePost",{
             post: data,
            })
+        .catch(error=> {
+            console.log(error);
+            })
         });  
     }
 }
