@@ -48,7 +48,6 @@ const loginController ={
             })
     
         .then(data=> {
-           //return res.send(data)
            return res.render("miPerfil",{
             user: data,
            })

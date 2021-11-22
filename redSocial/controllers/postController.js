@@ -31,7 +31,6 @@ const postController ={
             ]
         })
         .then(data=> {
-           //return res.send(data)
            return res.render("detallePost",{
             post: data,
            })

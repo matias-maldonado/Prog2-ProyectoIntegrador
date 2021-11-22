@@ -15,7 +15,6 @@ const indexController ={
             ]
         })
         .then(data=> {
-           //return res.send(data)
            return res.render("index",{
             posts: data,
         })
@@ -25,7 +24,34 @@ const indexController ={
         })
     },
     search: function (req, res) {
-        return res.render("resultadoBusqueda");
-    },
+        db.Post.findAll({
+            where:{
+                descripcion:{
+                    [OP.like]:"%"+ req.query.search + "%"
+                }
+            },
+            include: [{
+                all: true,
+            }],
+            limit: 10, 
+            order: [
+                ['date','DESC']
+            ]
+        })
+        .then(post =>{
+            if (post.lenght > 0){
+                return res.render("resultadoBusqueda",{
+                    post: post,
+                    resultado: 'resultados de busqueda:' + req.query.search
+                })
+            } 
+            else {
+                return res.render("resultadoBusqueda",{
+                    post: post,
+                    resultado: 'No existen resultados'
+                })
+            }
+        }
+    }
 }
 module.exports = indexController;
