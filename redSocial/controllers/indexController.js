@@ -27,7 +27,7 @@ const indexController ={
         db.Post.findAll({
             where:{
                 descripcion:{
-                    [OP.like]:"%"+ req.query.search + "%"
+                    [db.Sequelize.Op.like]:"%"+ req.query.search +"%"
                 }
             },
             include: [{
@@ -35,7 +35,7 @@ const indexController ={
             }],
             limit: 10, 
             order: [
-                ['date','DESC']
+                ['fecha','DESC']
             ]
         })
         .then(post =>{
