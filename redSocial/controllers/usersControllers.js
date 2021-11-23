@@ -1,5 +1,4 @@
-let user= require("../data/user")
-let post= require("../data/post")
+
 const db = require("../database/models");
 let bcrypt = require('bcryptjs')
 const loginController ={

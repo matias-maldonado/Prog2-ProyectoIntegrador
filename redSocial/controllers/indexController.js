@@ -1,5 +1,4 @@
 let db = require('../database/models')
-
 const indexController ={
     index: function (req, res) {
         db.Post.findAll ({

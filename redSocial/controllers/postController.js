@@ -1,6 +1,3 @@
-let post= require("../data/post")
-let user= require("../data/user")
-let comments= require("../data/comments");
 const db = require("../database/models");
 const postController ={
     add: function (req, res) {
