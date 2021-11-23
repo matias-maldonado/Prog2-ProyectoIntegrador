@@ -19,5 +19,6 @@ router.post('/login', userController.loginPost)
 router.get('/profile/:id', userController.profile)
 router.get('/register', userController.register)
 router.post('/register',upload.single('img'), userController.store)
+router.get('/logout', userController.logout)
 router.get('/edit', userController.edit)
 module.exports = router;

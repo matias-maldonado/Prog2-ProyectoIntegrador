@@ -32,7 +32,7 @@
                <section class="fotoPosteo">
                 <% posteo.forEach(element => { %>
                             <a href="/post/detalle" class="link-detalle">
-                                <img src= <%=element.img%>  alt="foto de perfil" class="foto-perfil">
+                                <img src= '<%=element.img%>''  alt="foto de perfil" class="foto-perfil">
                                 <p class="uk-text-center"><%=element.description%> </p>
                             </a>
                 <% }) %>

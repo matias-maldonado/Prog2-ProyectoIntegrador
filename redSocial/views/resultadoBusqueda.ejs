@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <%- include('./partials/head') %>
-    <body>
+<%- include('./partials/head') %>
+
+<body>
     <% if (user) { %>
-            <%- include('./partials/headerLogueado') %>
-        <% } else{ %> 
+    <%- include('./partials/headerLogueado') %>
+    <% } else{ %>
     <%- include('./partials/headerDeslogueado') %>
-            <%} %>
+    <%} %>
 
     <main>
         <div class="uk-section uk-section-small">
-            <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center">
-               
-                <h2>
-                    <li>
-                        <%= post.resultado %> 
-                    </li>
-                </h2>
+            <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
 
+                <h2>
+                    Resultados de tu busqueda:
+                </h2>
+                <section class="fotoPosteo">
+                    <% posteo.forEach(element => { %>
+                    <article>
+                        <div class="userFotoInicio">
+
+                            <img src="<%= element.user.img %> " class="" alt="">
+
+                            <a href="/users/profile/<%= element.user.id %> "><%= element.user.userName %> </a>
+
+                        </div>
+                        <a href="/post/detalle" class="link-detalle">
+                            <img src='<%=element.img%>' alt="foto de perfil" class="foto-perfil">
+                            <p class="uk-text-center"><%=element.descripcion%> </p>
+                        </a>
+                    </article>
+                    <% }) %>
+                </section>
             </div>
         </div>
     </main>

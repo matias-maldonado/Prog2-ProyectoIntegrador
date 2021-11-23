@@ -58,6 +58,11 @@ const loginController ={
     },
     edit: function (req, res) {
         return res.render('editarPerfil');
+    },
+    logout: function (req,res) {
+      res.clearCookie('usuarioId');
+      req.session.user = null;
+      res.redirect('/');
     }
 
 }

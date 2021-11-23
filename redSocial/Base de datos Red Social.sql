@@ -35,17 +35,15 @@ insert into users values
 (default, 'alejandro.g@gmail.com.ar','Alefernandez', '/img/perfil1.jpg','2003-6-4','orange',18);
 
 
-insert into posts values
-(default,  '/img/mclarenP1.jpg',  'Evento Ginebra 2020', '2020-5-12' ,1),
-(default, '/img/abtRs7.jpg' ,'Una joya perdida' , '2021-4-6' ,2),
-(default, '/img/ferrariLaferrari.jpg', 'Este color es dificil de conseguir, edicion limitada 2020', '2020-6-7' ,3),
-(default,  '/img/AMG.jpg', 'Este Mercho es una locura', '2021-11-7' ,4),
-(default,   '/img/ferrariPista.jpg', 'Ferrari gris',  '2019-02-7' ,5),
-(default,    '/img/KoenigseggAgera.jpg', 'foto sacada post duchita', '2021-04-2' ,1),
-(default,  '/img/JORGE-GOMEZ-PAGANI.jpg', 'se me va la beba :¬(',  '2020-4-8' ,2),
-(default, '/img/Porsche.jpg','Yendo a salta en esta nave', 2020-4-9 ,3),
-(default,  '/img/Urus.jpg', 'los detalles combinan con el exterior verdoso del auto', '2020-12-8' ,4),
-(default,  '/img/Huayra.jpg', 'Recien llegado de italia', '2020-10-17' ,5);
+insert into posts values(default,  '/img/mclarenP1.jpg',  'Evento Ginebra 2020', '2020-5-12' ,1);
+insert into posts values(default, '/img/abtRs7.jpg' ,'Una joya perdida' , '2021-4-6' ,2);
+insert into posts values(default,  '/img/AMG.jpg', 'Este Mercho es una locura', '2021-11-7' ,4);
+insert into posts values(default,   '/img/ferrariPista.jpg', 'Ferrari gris',  '2019-02-7' ,5);
+insert into posts values(default,    '/img/KoenigseggAgera.jpg', 'foto sacada post duchita', '2021-04-2' ,1);
+insert into posts values(default,  '/img/JORGE-GOMEZ-PAGANI.jpg', 'se me va la beba :¬(',  '2020-4-8' ,2);
+insert into posts values(default, '/img/Porsche.jpg','Yendo a salta en esta nave', '2020-4-9' ,3);
+insert into posts values(default,  '/img/Urus.jpg', 'los detalles combinan con el exterior verdoso del auto', '2020-12-8' ,4);
+insert into posts values(default,  '/img/Huayra.jpg', 'Recien llegado de italia', '2020-10-17' ,5);
 
 insert into comments values
 (default, '2020-5-12' , 'Muy bueno!', 1 ,1),
@@ -77,10 +75,10 @@ insert into comments values
 (default, '2021-4-3' , 'ES UN V12?', 1 ,7),
 (default, '2021-3-13' , 'Muy bueno!!', 2 ,8),
 (default, '2021-7-1' , 'Que locura', 3 ,9),
-(default, '2021-12-19' , 'Terrible carro', 4 ,10),
+(default, '2021-12-19' , 'Terrible carro', 4 ,6),
 (default, '2021-8-3' , 'Uff ese lo quiero', 5 ,6),
 (default, '2021-9-11' , 'Que locura', 1 ,7),
 (default, '2021-3-10' , 'Que cosa hermosa', 2 ,8),
 (default, '2021-5-13' , 'cuantos caballos tiene?', 3 ,9),
-(default, '2021-3-13' , 'que ganas de dar una vuelta', 4 ,10),
+(default, '2021-3-13' , 'que ganas de dar una vuelta', 4 , 4),
 (default, '2021-3-13' , 'importaciones al md', 5 ,6);

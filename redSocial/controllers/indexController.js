@@ -31,8 +31,8 @@ const indexController ={
                 }
             },
             include: [{
-                all: true,
-            }],
+                association:'user'
+                }],
             limit: 10, 
             order: [
                 ['fecha','DESC']
@@ -41,13 +41,13 @@ const indexController ={
         .then(post =>{
             if (post.length> 0){
                 return res.render("resultadoBusqueda",{
-                    post: post,
+                    posteo: post,
                     resultado: 'resultados de busqueda:' + req.query.search
                 })
             } 
             else {
                 return res.render("resultadoBusqueda",{
-                    post: post,
+                    posteo: post,
                     resultado: 'No existen resultados'
                 })
             }
