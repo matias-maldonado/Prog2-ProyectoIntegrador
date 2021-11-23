@@ -34,10 +34,10 @@ const postController ={
            return res.render("detallePost",{
             post: data,
            })
+        })  
         .catch(error=> {
             console.log(error);
             })
-        });  
     }
 }
 module.exports = postController;

@@ -13,6 +13,9 @@ const loginController ={
             }
         })
         .then(user => {
+            if(!user){
+                return res.render('login')
+            }
         let passwordCorrecta = bcrypt.compareSync(req.body.password,user.password)
         if (passwordCorrecta == true){
             req.session.user= user

@@ -18,10 +18,10 @@ const indexController ={
            return res.render("index",{
             posts: data,
         })
-        .catch(error=> {
-            console.log(error);
-        });
-        })
+    })
+    .catch(error=> {
+        console.log(error);
+    });
     },
     search: function (req, res) {
         db.Post.findAll({
@@ -39,7 +39,7 @@ const indexController ={
             ]
         })
         .then(post =>{
-            if (post.lenght > 0){
+            if (post.length> 0){
                 return res.render("resultadoBusqueda",{
                     post: post,
                     resultado: 'resultados de busqueda:' + req.query.search
@@ -51,7 +51,7 @@ const indexController ={
                     resultado: 'No existen resultados'
                 })
             }
-        }
+        })
     }
 }
 module.exports = indexController;
