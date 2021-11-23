@@ -38,6 +38,21 @@ const postController ={
         .catch(error=> {
             console.log(error);
             })
-    }
-}
+    },
+    comentar: function (req, res) {
+        if (!req.session.user) {
+            res.redirect("/users/login");
+          }
+          db.Comment.create({
+            ...req.body,
+            postId: req.params.id,
+            userId: req.session.user.id
+          }).then(post => {
+            res.redirect('/post/detalle/'+req.params.id);
+          }).catch(error => {
+            return res.render(error);
+          })
+
+} 
+} 
 module.exports = postController;

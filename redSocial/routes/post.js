@@ -17,4 +17,5 @@ const storage = multer.diskStorage({
 router.get('/add', postController.add)
 router.post('/add', upload.single('img') ,postController.store)
 router.get('/detalle/:id', postController.detalle)
+router.post ("/comentar/:id", postController.comentar)
 module.exports = router;
