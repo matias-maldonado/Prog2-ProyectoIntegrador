@@ -1,6 +1,3 @@
-const post = require("../../data/post");
-const User = require("./User");
-
 module.exports= (sequelize, DataTypes)=>{
     let alias="Post";
     let cols= {

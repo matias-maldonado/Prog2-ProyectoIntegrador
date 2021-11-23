@@ -1,6 +1,3 @@
-let post= require("../data/post")
-let user= require("../data/user")
-let comments= require("../data/comments")
 let db = require('../database/models')
 
 const indexController ={
