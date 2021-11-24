@@ -41,13 +41,13 @@ const postController ={
             res.redirect("/users/login");
           }
           db.Comment.create({
-            ...req.body,
+            comentario: req.body.comentario,
             postId: req.params.id,
             userId: req.session.user.id
           }).then(post => {
             res.redirect('/post/detalle/'+req.params.id);
           }).catch(error => {
-            return res.render(error);
+            return res.render(erro3r);
           })
 
 } 
